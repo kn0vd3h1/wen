@@ -1,0 +1,7 @@
+[package]
+name = "wen"
+version = "0.1.0"
+authors = ["dmoiseenko"]
+edition = "2018"
+
+[dependencies]
